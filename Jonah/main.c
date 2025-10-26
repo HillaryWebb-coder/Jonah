@@ -2,6 +2,9 @@
 #include CMSIS_device_header
 
 int main() {
-    for (;;) {
+    while(1) {
+
     }
 }
+
+
