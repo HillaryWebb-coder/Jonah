@@ -11,3 +11,6 @@ project:
       - elf
       - hex
       - map
+  packs:
+    - pack: ARM::CMSIS
+    - pack: Keil::STM32F1xx_DFP
