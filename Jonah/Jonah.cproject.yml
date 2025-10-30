@@ -3,6 +3,16 @@ project:
     - group: Source Files
       files:
         - file: ./main.c
+      groups:
+        - group: Peripeheral Drivers
+          files:
+            - file: Peripheral Drivers/inc/gpio.h
+            - file: Peripheral Drivers/src/gpio.c
+            - file: Peripheral Drivers/inc/spi.h
+            - file: Peripheral Drivers/src/spi.c
+        - group: Device Drivers
+          groups:
+            - group: epaper display
   components:
     - component: ARM::CMSIS:CORE
     - component: Device:Startup
